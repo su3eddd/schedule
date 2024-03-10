@@ -1,0 +1,62 @@
+/* DEUS JUSTINE VICTORIO */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #153040;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #fff;
+}
+h4{
+    color: #fff;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #e09f5a;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #999;
+    color: white;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+td:first-child {
+    background-color: #182833;
+}
+
+td:empty {
+    background-color: #1F4762;
+}
+a {
+    color: blue;
+}
+
+/* Print Mode */
+@media print {
+    body {
+        color: black;
+        background-color: white;
+    }
+
+    table, th, td {
+        color: black;
+        background-color: white;
+        border-color: #ddd; /* Shades of gray for table cells */
+    }
+
+    h3 {
+        font-family: "Times New Roman", serif;
+    }
+}
