@@ -53,7 +53,7 @@ a {
     table, th, td {
         color: black;
         background-color: white;
-        border-color: #ddd; /* Shades of gray for table cells */
+        border-color: #ddd;
     }
 
     h3 {
