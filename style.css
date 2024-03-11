@@ -37,11 +37,36 @@ td:first-child {
 }
 
 td:empty {
-    background-color: #1F4762;
+    background-color: #182833;
 }
 a {
     color: blue;
 }
+
+
+/* subject colors */
+.pe{
+    background-color: #c7ae88;
+}
+.ethics{
+    background-color: #9ee9c4;
+}
+.media{
+    background-color: #2c6552;
+}
+.net{
+    background-color: #2a8082;
+}
+.logic{
+    background-color: #339f8d;
+}
+.data{
+    background-color: #61c9c9;
+}
+.web{
+    background-color: #193b30;
+}
+
 
 /* Print Mode */
 @media print {
@@ -50,7 +75,7 @@ a {
         background-color: white;
     }
 
-    table, th, td {
+    table, th, td{
         color: black;
         background-color: white;
         border-color: #ddd;
